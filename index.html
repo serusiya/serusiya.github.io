@@ -40,6 +40,7 @@
 	$(function(){
 		var selectColumn = UrlParam(selectColumn);
 		var searchStr = UrlParam(searchStr);
+		console.log(searchStr);
 		if(selectColumn){
 			$('#searchStr').val(searchStr);
 			$('#selectColumn').val(selectColumn);
